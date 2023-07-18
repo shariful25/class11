@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:sans-serif;
+}
+/* header css */
+.header_section{
+   
+
+}
+.menu{
+    background-color: #34495E;
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+    /* position:; */
+}
+.menu ul li{
+    display: inline-block;
+   
+    margin-right: 20px;
+   
+    /* width: 100%; */
+    height: auto;
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 10px 8px;
+    color: #000;
+    transition: .4s;
+    text-decoration: none;
+    background-color: #E67E22;
+}
+.menu ul li a:hover{
+    background-color: #bb6519;
+}
+
+.menu ul li span{
+    width: 7px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 0px;
+    margin: 0px auto;
+    
+}
+.menu ul li p{
+    color: #E67E22;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+/* service css */
+.service{
+    background-color: #E1E1E1;
+}
+.service_header{
+    border-bottom: 2px dashed green;
+}
+.service_header h1{}
+.service_item{
+   
+    width: 100%;
+}
+.sitem_1{
+    width: 304px;
+    height: 345px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0,.9);
+    background: #EEE7E7;
+    margin: 47px 32px;
+    border-radius: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    /* z-index: 9; */
+    padding: 30px 11px;
+    box-sizing: border-box;
+}
+
+
+.item1{
+    width: 100%;
+    height: 100%;
+    background: #EEE7E7;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: 8;
+   border-radius: 20px;
+  
+   transition: .4s;
+   transform-origin: center;
+   
+}
+.sitem_1:hover .effect{
+   opacity: 1;
+   visibility: visible;
+}
+.effect{
+    width: 100%;
+    height: 100%;
+    background: #2293CC;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: -2;
+   border-radius: 20px;
+     opacity: 0;
+   visibility: hidden;
+   transition: .4s;
+   transform-origin: center;
+}
+.item1 span{
+    color: rgb(5, 88, 5);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.item1 img{}
+.item1 h3{
+    
+    color:#520E0E;
+}
+
+.item3 h3{
+   margin-bottom: 30px;
+}
+/* contact area */
+.contact{
+    background-color: #9B59B6;
+    position: relative;
+   
+}
+.contact_form{
+    width: 250px;
+    height: auto;
+    margin: 35px auto;
+    text-align: center;
+    
+}
+.form_img{
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: 10px auto;
+    position: relative;
+    
+}
+.imgdescription{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #d5e63a70;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform-origin: center;
+
+
+}
+
+.imgdescription h5{
+    position: absolute;
+    bottom: 6px;
+    left: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: center;
+   transition: .4s;
+}
+.form_img:hover .imgdescription{
+    opacity: 1;
+    visibility: visible;
+}
+.form_img:hover .imgdescription h5{
+    opacity: 1;
+    visibility: visible;
+}
+.form_img img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #E67E22;
+    font-size: 20px;
+   
+  
+}
+.contact_form input{
+    border: 1px solid #000;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin: 7px 0px;
+}
+.contact_form button{
+    padding: 5px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #9B59B6;
+    color: #fff;
+    border: 2px solid  #7405a0;
+    transition: .4s;
+}
+.contact_form button:hover{
+    color: #9B59B6;
+    background-color: #fff;
+}
+/* cicle design */
+.circle1{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #34495E;
+    border: 4px dotted  #E67E22;
+}
+.c1p{
+    position: absolute;
+    top: 15px;
+    left: 380px;
+}
+.c2p{
+    position: absolute;
+    top: 15px;
+    right: 380px;
+}
+.c3p{
+    position: absolute;
+    top: 90px;
+    left: 230px;
+}
+
+.c4p{
+    position: absolute;
+    top: 90px;
+    right: 230px;
+}
+/* fotter csss */
+.footer{
+    background-color: #2C3E50;
+}
+.footer p{
+    font-size: 20px;
+    color:#fff;
+}

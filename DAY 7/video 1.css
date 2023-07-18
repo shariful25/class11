@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #e9d2e8;
+}
+.iconimg{
+width: 700px;
+margin:10px auto;
+text-align: center;
+
+}
+.iconimg p{
+    color: #070707;
+    font-size: 20px;
+}
+.iconimg span{
+    font-size: 50px;
+    color: red;
+    margin: 20px 30px;
+}
+.iconimg img{
+    margin-top: -30px;
+}
+.socialicon{}
+.socialicon i{
+    font-size: 50px;
+    margin: 10px 20px;
+    color: #a30a69;
+}
+

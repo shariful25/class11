@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+  
+}
+/* headersection css */
+.headersection{}
+.headersection h2{
+    font-weight: 400;
+}
+/* banner secetion */
+.bannersection{}
+.bannersection img{
+    width: 890px;
+    height: auto;
+}
+
+
+/* servicesection css */
+
+.servicesection{}
+.serviceheading,.mixbg{
+    border: 4px solid #02C8F0;
+    text-align: center;
+    color:  #02C8F0;
+    padding: 10px 0px;
+}
+.serviceheading i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.servicesection h1{
+
+}
+.service_item{
+    width: 790px;
+    margin: 30px auto;
+}
+.serviceitem1{
+    width: 360px;
+    text-align: center;
+    padding: 50px 15px;
+    background: #aa5050;
+    border-radius: 0px 40px 40px 0px;
+    color: #E8D5D5;
+}
+.service_item h1{
+    font-weight: 400;
+}
+.serviceitem2{
+    width: 350px;
+    text-align: center;
+    padding: 50px 15px;
+    background: #4F7D4B;
+    border-radius: 40px 0px 0px 40px;
+    color: #F49F9F;
+    margin-top: 30px;
+    margin-left: 330px;
+}
+.serviceitem3{
+    width: 360px;
+    text-align: center;
+    padding: 30px 15px;
+    background: #340E9D;
+    border-radius: 0px 40px 40px 0px;
+    color: #DAEDD5;
+    margin-top: 30px;
+   
+}
+.fontweight{ 
+    font-weight: 500;
+}
+/* contact section */
+.contactsection{}
+.contactsection i{
+    margin-left: 10px;
+}
+.formarea{
+    width:470px;
+    margin: 30px auto;
+    text-align: center;
+}
+.formarea input{
+        padding: 8px 20px;
+        border-radius: 5px;
+        border: 2px solid #DBDBDB;
+        color: #DBDBDB;;
+}
+.formarea textarea{
+    border: 2px solid #DBDBDB;
+    border-radius: 2px;
+}
+.btnnew{}
+.formarea{}
+/* footer css */
+.footerarea{
+    background-color: #212529;
+}

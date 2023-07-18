@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, h3{
+    font-family: 'Domine', serif;
+    
+}
+ 
+p,h1,h2, h4,a,button{
+    font-family: 'Lora', serif;
+}
+ul{
+    list-style: none;
+}
+/* header css */
+.headertop{}
+.headertop_logo {
+    background-color: #2E219A;
+    text-align: center;
+}
+.headertop_logo img{
+    width: 80px;
+    height: auto;
+}
+.header_menu {
+    background-color: #FF0000;
+}
+.header_menu ul{
+    
+}
+.header_menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    border-right: 1px solid #fff;
+}
+.header_menu ul li:nth-child(7){
+    border-right: none;
+   
+}
+.header_menu ul li a{
+  
+    padding: 0px 20px ;
+    display: inline-block;
+    transition: .4s;
+  text-decoration: none;
+    color: #fff;
+}
+.header_menu ul li a:hover{
+    background-color: #a71111;
+}
+/* banner css */
+.bannersection{
+    background:url(https://i.ibb.co/hBcQvWk/pngtree-simple-creative-background-design-in-the-sky-backgroundcartoonlovelyplanetstarry-skyillustra.jpg) no-repeat center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    padding: 200px 120px;
+    margin-top: -16px;
+}
+.banner{}
+.banner h1{ }
+.banner p{ 
+    font-size: 14px;
+}
+.banner button{ 
+    border: 1px solid #008000;
+    padding: 5px 30px ;
+    color: #fff;
+    background-color: #008000;
+    outline: none;
+}
+.banner button:focus{ 
+    
+    outline: none;
+    display: inline-block;
+
+}
+/* about css */
+.about_section{
+    background:url(https://i.ibb.co/5MDPVXG/pngtree-modern-double-color-futuristic-neon-background-image-351866.jpg) no-repeat;
+    background-position: top  center;
+    background-size: cover;
+    padding:400px 0%;
+    /* margin-top: -16px; */
+}
+.about{}
+.divheading{
+    background-color: #008000;
+    margin-top: 80px;
+}
+.about p{
+    /* width: 900px; */
+    height: auto;
+    background-color: yellow;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 5px;
+    
+}
+.about_btn button{ 
+    border: 1px solid #000000;
+    background-color: #000000;
+    padding: 5px 30px ;
+    color: #fff;
+    outline: none;
+    display: inline-block;
+
+}
+.about_btn button:focus{ 
+    
+    outline: none;
+    display: inline-block;
+
+}
+
+/* team section */
+.teamsection{
+    background-color: #4AB75C;
+}
+.team{}
+.team1{
+    width: 900px;
+    height: auto;
+    margin: 10px auto;
+}
+.team h2{}
+.team1_img {
+    width: 100px;
+    height: 100%;
+}
+.team1_img img{
+    max-width: 100%;
+}
+.team1_details{
+    width: 525px;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-top: -102px;
+}
+
+.team2{
+    width: 900px;
+    height: auto;
+    margin: 10px auto;
+    margin-top: 100px;
+}
+.team2_img {
+    width: 100px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: 272px;
+    margin-top: -145px;
+}
+.team2_img img{
+    max-width: 100%;
+
+}
+.team2_details{
+    width: 525px;
+    
+}
+.team2_details h4{}
+.team2_details p{}
+.teamsection{}
+.teamsection{}
+/* footer css */
+.footersection{}
+.footer{
+    background-color: #2C1A8E;
+}
+.footer ul{}
+.footer ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer ul li a{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: .4s;
+  text-decoration:none;
+  color:#fff;
+}
+.footer ul li a:hover{
+    background-color: #1c175c;
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,140 @@
+.totalwebsite{}
+.fixwidth{
+    width: 1066px;
+    margin: 0px auto;
+    height: auto;
+}
+.headersection{
+    background-color:#000;
+ 
+}
+.headertop {
+    background-color: #0B1979;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+.headertop h1{
+    color: #BBCEE5;
+    font-size: 22px;
+}
+.headertop sup{
+    color: #903A6A;
+    font-size: 22px;
+}
+.headertop h1 span{
+    color: #518DD8 !important;
+}
+.headersection{}
+.headersection p{
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 500;
+    font-size: 30px;
+}
+.headermidle{
+    background-color: #137C13;
+}
+/* about secetion */
+.aboutussection{}
+.aboutusheading{
+    background-color: #834646;
+}
+.aboutusheading h1{
+    font-style: italic;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 500;
+    font-size: 60px;
+    color: #1A2428;
+}
+.aboutusinfo{
+    background-color: #EEEEEE;
+    margin-top: -8px;
+}
+.aboutusinfo p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif
+}
+/* service section */
+.servicesection{
+    background-color:#EEEEEE;
+}
+.serviceheading{
+    background-color: #297A48;
+}
+.serviceheading p{
+ 
+    font-size: 56px;
+    font-weight: 200;
+    /* font-style: italic; */
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #234133;
+
+}
+.totalservice {
+    background-color:#EEEEEE;
+    
+}
+.service1{}
+.service1 h3{}
+.service1 img{}
+.service1 p{}
+/* contact section */
+.contactsection{
+    background-color: #EEEEEE;
+}
+.contactheading{
+    background-color: #0D6EFD;
+}
+.contactheading p{
+    font-size: 55px;
+    font-weight: 300;
+    font-family: 'open sans', sans-serif;
+}
+.contactform{
+    width: 230px;
+    margin: auto;
+}
+.contactform input{}
+
+.aboutusheading{}
+/* footer section css */
+.footersection{
+    background-color: #4F84C4;
+}
+.footerheading{
+   color: #fff;
+}
+.footerheading h1{
+    font-style: italic;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 500;
+    font-size: 55px;
+    color: #ffffff;
+}
+.footerheading h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+}
+.footerheading p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+.footerdown{
+    background-color: #000000;
+}
+.footerdown p{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.footerdown p span{
+    color: #0D6EF8;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* main div  */
+.maindiv{
+    width: 1066px;
+    height: auto;
+    margin:0px auto ;
+}
+.headersection{
+    background-color: #385d75;
+}
+/* title secetion */
+.titlediv{
+    width: 100%;
+    height: auto;
+    
+}
+.title1 {
+    width: 460px;
+    height: auto;
+    background-color: #ff8f10;
+    border-left: 4px solid #000000;
+    border-radius: 0px 50px 50px 0px;
+    font-weight: 500;
+    margin-left: 220px;
+    box-shadow: 3px 3px 10px rgba(227, 217,54,.9 );
+}
+.title2{
+    width: 460px;
+    height: auto;
+    border-right: 3px solid #a00185;
+    border-bottom: 1px solid #a00185;
+    border-radius: 40px 0px 0px 40px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: auto;
+    box-shadow: 4px 4px 16px rgba(128,0,128,.5);
+}
+
+/* flag css */
+.flagarea{
+    background-color: #4d687a;
+    width: 100%;
+    height: auto;
+}
+
+
+.flag_boxshadow{
+    box-shadow: 2px 2px 15px rgba(144,158,174.5);
+}
+.tflag{
+    width:350px;
+    height: 210px;
+    background-color: #008000;
+    
+
+}
+.circleflag{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #ff1f1f;
+    margin: 41px auto;
+    display: inline-block;
+    
+    
+}
+
+/* japan */
+.japan{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000;
+}
+/* england flag */
+.england{
+    background-color: rgb(255, 255, 255);
+}
+.eng_bor1{
+    width: 25px;
+    height: 210px;
+    background: rgb(253, 30, 30);
+    margin-left: auto;
+    margin-right: 84px;
+}
+.eng_bor2{
+    width: 350px;
+    height: 25px;
+    background: rgb(253, 30, 30);
+    margin-left: -241px;
+    margin-top: 103px;
+    display: inline-block;
+}
+/* Germany */
+.germany{
+    width:350px;
+    height: 210px;
+    background-color: #fff;
+}
+.box1{
+    width: 100%;
+    height: 70px;
+    background: black;
+}
+.box2{
+    width: 100%;
+    height: 70px;
+    background: rgb(255, 17, 17);
+    border-top: 2px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.box3{
+    width: 100%;
+    height: 70px;
+    background: yellow
+}
+/* footer */
+.footersection{
+    background-color: green;
+    /* display: inline-block; */
+    margin-top: -8px;
+}

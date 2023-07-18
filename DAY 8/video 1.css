@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+/*  */
+h1{
+    text-align: center;
+    color:red ;
+    margin: 50px 20px;
+    text-decoration: underline;
+    text-decoration-color: #15aa01;
+    text-decoration-style:wavy;
+    text-decoration-thickness: 2px;
+    /* border-style: outset; */
+    
+}  
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: #ff0d0d;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 20px auto;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: #3f1717;
+    border-radius: 0px 60px 0px 60px;
+    display: inline-block;
+    margin: 20px auto;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: #15aa01;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px auto;
+}
+.box21{
+    height: 200px;
+    width: 200px;
+    background-color: #922e2e;
+    border-radius:50px 0px 50px 0px;
+    display: inline-block;
+    margin: 20px auto;
+}
+/* Flag creation */
+.flag_bangladesh{
+    height: 210px;
+    width: 350px;
+    background-color: #00d31c;
+   
+    display: inline-block;
+    margin: 20px auto;
+}
+.circle_red{
+    height: 140px;
+    width:140px;
+    background-color: red;
+    border-radius: 50%;
+    display:inline-block;
+    margin:35px auto;
+
+
+}
+/* egg creation */
+.egg{
+    height: 150px;
+    width: 280px;
+    background-color: #f8faf0;
+    border: 2px solid #e7e1e1;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 150px;
+    border-radius: 50%;
+}
+.youlk{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f79605;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+/* shadow area */
+.shadow{
+    display: inline-block;
+    margin: auto;
+    width: 900px;
+    height: 450px;
+    background-color: #a3f5bdc5;
+    box-shadow: 0px 0px 15px rgba(0, 0,0, .5);
+    text-align: center;
+}
+.boxshadow{
+    width: 300px;
+    height: 200px;
+    background-color: #f13a3a;
+    box-shadow: 3px 6px 5px rgba(211, 109,189, .5);
+    /* margin: -30px 41px; */
+    border-radius: 10px;
+    display: block;
+    marign-top: 100px;
+    margin-top: 90px;
+    margin-left: 20px;
+  
+}
+.textshadow h2{
+    
+    display: inline-block;
+    text-shadow: 2px 5px 2px rgb(59 42 60 / 50%);
+}
+.textshadow{
+    width: 350px;
+    height: 200px;
+    background-color: #734dff;
+    box-shadow: 3px 6px 5px rgba(90, 224, 37, 0.5);
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin-top: -193px;
+    margin-left: auto;
+    line-height: 200px;
+    margin-right: 20px;
+}

@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* menu css */
+.{}
+.header_menu{
+    background-color: #34495E;
+}
+.header_menu h2{}
+/* banner css */
+.banner{
+    background-color: #E67E22;
+    width: 100%;
+    height: auto;
+    padding: 75px 75px;
+   
+}
+.banner img{
+    width: 1077px;
+    box-shadow: 9px 9px 9px rgb(255, 255, 255);
+    max-width: 100%;
+}
+/* about css */
+.about_us{
+    background-color: #34495E;
+}
+.about_us h1{
+    font-size: 35px;
+}
+.about_us h5{}
+.about_us p{}
+/* service css */
+.service{
+    background-color: #9B59B6;
+}
+.service h4{
+    color:#c2c1c1;
+}
+.service p{
+    font-size: 19px;
+}
+/* footer top */
+.footer_top{
+    
+}
+.footertop_item{
+    width: 380px;
+    height: 100px;
+    border: 3px dashed #000;
+    background-color: #DCDCDC;
+    margin: 0px auto;
+    box-shadow: 15px 16px 2px rgba(255, 255, 255,1);
+    border-radius: 5px;
+}
+.footertop{
+    background-color: #FF9814;
+    width: 100%;
+}
+/* footer css */
+.footer{
+    background-color: #2C3E50;
+}
+.footer p{
+
+}
+.{}

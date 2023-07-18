@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    width: 1066px;
+    height: auto;
+    margin: auto;
+}
+.header_section{
+    background-color: #ff50c5de;
+    width: 100%;
+    height: auto;
+}
+.header_section h2{}
+.banner_section{}
+.banner_section img{
+    width: 100%;
+    height: auto;
+    margin-top: -8px;
+}
+.service_section{}
+.service_section h2{}
+.service_section p{}
+.footer_section{
+    background-color: #2d355a;
+}
+.footer_section h2{}
+.footerbottom_section{}
+.footerbottom_section p{}
+.{}
+.{}

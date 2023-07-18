@@ -1,0 +1,80 @@
+body{
+    
+    color: #000;
+}
+table{
+    text-align: center;
+}
+.heaingcolor{
+    color:#68217A ;
+    font-size: 35px;
+}
+.theading{ 
+    background-color: #FFFF00;
+}
+.satcolorc1{
+    background-color: #F6B93B;
+}
+.namecolorc2{
+    background-color:#FFCCCC;
+}
+.color101{
+    background-color: #EE82EE;
+}
+.color102{
+    background-color: #8E4ABE;
+}
+.color103{
+    background-color: #2222FD;
+}
+.color104{
+    background-color: #008000;
+}
+.color105{
+    background-color: #FFFF00;
+}
+.color106{
+    background-color: #FFA500;
+}
+
+
+.moncolor{
+    background-color: #0FBCF9;
+}
+.tuescolor{
+    background-color: #78E08F;
+}
+.thrscolor{
+    background-color: #D1D8E0;
+}
+.{}
+.suncolor{
+    background-color: #FF3F34;
+}
+.roomcolorc5{
+    background-color: #C4E538;
+}
+.colorc410{
+    background-color: #2ED573;
+}
+.colorc48{
+    background-color: #FF6B81;
+}
+/* css for div */
+.ptagbg{
+    background-color: #D2D2D2;
+    color: #623FC6;
+    text-align: center;
+}
+.heading2{
+    color: black;
+}
+.heading3{
+    color: #F75757;
+}
+.imgtag{}
+.footersection{
+    background-color: #45D76A;
+    color: #fff;
+    text-align: center;
+}

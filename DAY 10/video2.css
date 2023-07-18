@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.headersection{
+    background: url(https://images.pexels.com/photos/3560168/pexels-photo-3560168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    /* text-align: center; */
+    
+}
+.header{
+   
+ 
+}
+
+.menu{
+
+
+}
+.menu ul{
+    list-style: none;
+    text-align:center;
+    
+
+
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding:0px 20px;
+    font-size: 22px;
+    transition: .4s;
+
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #fff;
+    
+}
+/* service section */
+.service_area{
+    background: url(https://s3-alpha.figma.com/hub/file/2820162281/91ed6d9e-2c31-4833-b6f5-973506c8edc9-cover.png);
+    background-repeat: repeat;
+    padding: 200px 0px;
+    /* background-size: cover; */
+    background-position: top ;
+}
+.service{
+    text-align: center;
+    width: 800px;
+    height: auto;
+    background-color: #5ceb499a;
+    padding: 30px 10px;
+    margin: 20px auto;
+    color: rgb(124, 11, 77);
+    line-height: 30px;
+    border-radius: 50%;
+    border: 2px solid #000;
+   
+
+}
+.service h1{
+    font-size: 25px;
+}
+.service h4{
+    font-size: 20px;
+}
+.service p{
+    font-size: 18px;
+}
+

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* main css */
+.main{
+    width: 500px;
+    height:445px;
+    margin: 0px auto;
+    background-color: #b69595;
+    border: 1px solid red;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: green;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(214, 140, 28);
+    position: relative;
+    top: 100px;
+    left: 0px;
+    display: inline-block;
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(214, 28, 143);
+    position: relative;
+    top: 200px;
+    left: 0px;
+    display: inline-block;
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(28, 31, 214);
+    position: relative;
+    top: 300px;
+    left: 0px;
+    display: inline-block;
+}
+/* main2 css */
+.main2{
+    width: 500px;
+    height:445px;
+    margin: 0px auto;
+    background-color: #b69595;
+    border: 1px solid red;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.div5{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: green;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    display: inline-block;
+}
+.div6{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(214, 140, 28);
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    display: inline-block;
+}
+.div7{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(28, 214, 152);
+    position: absolute;
+    top: 140px;
+    right:102px;
+    display: inline-block;
+}
+.div8{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(214, 28, 143);
+    position: absolute;
+    top: 240px;
+    left: 180px;
+    display: inline-block;
+}
+/* Overlay main3 */
+.main3{
+    width: 400px;
+    background-color: rgb(179, 174, 174);
+    margin: 10px auto;
+    height: 400px;
+    padding: 40px 20px;
+}
+.img_1{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    transform-origin: left;
+    transition: .4s;
+}
+.img_1 img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.descript{
+    position: absolute;
+    width: 200px;
+    height: 283px;
+    background-color: #bf4eec67;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+    transition: .4s;
+
+}
+.descript h1{
+    top: 245px;
+    position: absolute;
+    font-size: 24px;
+    left: 25px;
+    z-index: 4;
+    color: goldenrod;
+}
+.img_1:hover .descript{
+    visibility: visible;
+    opacity: 1;
+    
+}

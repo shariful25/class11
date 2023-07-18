@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+
+}
+body{
+    text-align: center;
+}
+h1{
+    color: red;
+    background-color: #222121;
+    padding: 10px 0px;
+    font-size: 35px;
+}
+h2{
+    color: rgb(115, 252, 61);
+    background-color: #b974e0;
+    padding: 10px 0px;
+    font-size: 32px;
+}
+h3{
+    color: rgb(248, 246, 246);
+    background-color: #222121;
+    padding: 10px 0px;
+    font-size: 30px;
+}
+p{
+    color: rgb(209, 38, 38);
+    background-color: #14ce14;
+    padding: 10px 0px;
+    font-size: 30px;
+}
+img{
+    width: 700px;
+    height: 350px;
+    background-color: #969696;
+    padding:10px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+/* class & id selection */
+.classselection{
+    padding: 20px;
+    text-shadow: 3px 4px 3px rgb(236, 4, 43);
+    font-size: 40px;
+    display: inline-block;
+    width: 1200px;
+}
+.classselection{}
+
+
+#pstyle{
+    padding: 20px;
+    text-shadow: 3px 4px 3px rgb(236, 4, 43);
+    font-size: 40px;
+    display: inline-block;
+    width: 1200px;
+    text-transform: uppercase;
+
+}
+/* Nested selectior */
+.menu{
+    background-color: #7207ff;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    font-size: 30px;
+    
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li:nth-child(4){
+    color: red !important;
+    border: 1px solid #000;
+    background: transparent;
+}
+.menu ul li:nth-child(3){
+    color: rgb(211, 210, 210) !important;
+    border: 1px solid #f02828;
+    background: transparent;
+}
+.menu ul li:nth-child(odd){
+    color: rgb(211, 210, 210) !important;
+    border: 1px solid #ff2289;
+    background: transparent;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+.menu ul li a{}
+/* psudo selectior */
+.menu2{
+    background-color: #7207ff;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    font-size: 30px;
+    
+}
+.menu2 ul{
+    list-style: none;
+}
+.menu2 ul li{
+    display: inline-block;
+    transition: .4s;
+}
+.menu2 ul li:nth-child(4){
+    color: red !important;
+    border: 1px solid #000;
+    background: transparent;
+}
+.menu2 ul li:nth-child(3){
+    color: rgb(211, 210, 210) !important;
+    border: 1px solid #f02828;
+    background: transparent;
+}
+.menu2 ul li:nth-child(odd){
+    color: rgb(211, 210, 210) !important;
+    border: 1px solid #ff2289;
+    background: transparent;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    color: #d67878;
+    padding: 10px 20px;
+    transition: .4s;
+}
+.menu2 ul li:hover{
+    background-color: #fff;
+    color: #222121;
+    
+}
+.menu2 ul li:focus{
+    cursor: pointer;
+    color: red;
+}
+.menu2 ul li a:active{
+    color: #14ce14;
+}
+.menu2 ul li:nth-child(2):hover{
+    color: #ce1481;
+}
+.menu2 ul li a:visited{
+    color: rgb(170, 170, 170);
+    color: #000;
+}
+.menu2 ul li a:focus-visible{}
+/* menu pseudo */
+.menupseudo{
+    background: pink;
+    color: #000;
+    font-size: 40px;
+    padding: 20px 0px;
+}
+.menupseudo a{
+    text-decoration: none;
+    transition: .4px;
+}
+.menupseudo a:link{
+    color: #fff;
+}
+.menupseudo a:hover{
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.menupseudo a:visited{color: green;}
+.menupseudo a:focus{
+    border-bottom: 3px solid red;
+}
+

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.maintotal{
+    text-align: center;
+    display: inline;
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    background-color: #b1229e9a;
+    display: none;
+    z-index: 2;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 5px;
+
+}
+
+.main {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    border-radius: 5px;
+    background-image: url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* display: inline-block; */
+}
+
+.overlayshow {
+    position: absolute;
+    top: 35px;
+    left: 0px;
+}
+
+.overlayshow h1 {}
+
+.overlayshow p {}
+
+.btn {
+    background-color: #25409b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+}
+
+/* css position */
+.main2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px auto;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+.overlay2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .8s;
+    overflow: hidden;
+}
+.description {
+    background-color: #c3dd4d73;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    transition: .8s;
+}
+.overlay2:hover .description{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    
+    transition: .4s;
+}
+.description h1 {
+    margin: 10px 0px;
+    font-size: 25px;
+    transition: .8s;
+}
+.description p {
+    margin: 10px 0px;
+}
+.description img {
+    margin-top: 32px;
+    transition: .8s;
+}
+/* main3 css */
+.main3{
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #65e965;
+    color: crimson;
+    text-align: center;
+}
+.main3 h1{}
+.main3 h2{}
+/* task 4 title Section */
+.title{
+    width: 900px;
+    height: auto;
+    background-color: #234bcc;
+    color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+  
+}
+.titleitem1{
+    width: 440px;
+    height: auto;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.titem_img{
+    width: 200px;
+    height: 136px;
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px #000;
+
+}
+.titem_img img{
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ef44de;
+}
+.titem_text{
+    width: 180px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 15px;
+    box-sizing: border-box;
+   
+}
+.titem_text h1{
+    font-size: 20px;
+}
+.titem_text h3{}
+.titem_text p{}
+.title{}
+.title{}
+.item2{
+    margin-left: 12px;
+}
+
+

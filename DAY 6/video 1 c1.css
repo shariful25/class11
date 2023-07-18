@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.divcolor{
+    width: 1066px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #aca8a8;
+    /* padding: 5px; */
+}
+.divcolor h1{
+    background-color: #5f5dd1;
+    color: chartreuse;
+    text-align: center;
+}
+.divcolor h2{
+    color: #df4332;
+}
+.divcolor p{}
+.p1{
+    color: red;
+    font-size: 30px;
+}
+.span1{
+    color: greenyellow;
+}
+.span2{
+    color: hsl(133,100%,59%);
+}
+.span3{
+    color: rgb(187, 255, 0.1);
+}
+.span4{
+    color: #df4332;
+}
+/* CSS TEXT PROPERTY */
+.csstext{
+    background-color: #73d84b;
+   
+}
+.csstext h1{
+    color: #df4332;
+    text-align: center;
+    
+}
+.textalign{
+    width: 800px;
+    background-color: #8a045d;
+    margin:auto;
+}
+.textalign h1{
+    text-align: left;
+    color: #df4332;
+}
+.textalign h2{
+    text-align: center;
+    color: #df4332;
+}
+.textalign h3{
+    text-align: right;
+    color: #df4332;
+}
+/* css text-decoration */
+.textdecoration{}
+.textdecoration h1{
+    text-decoration: overline;
+}
+.textdecoration h2{
+    text-decoration: line-through;
+}
+.textdecoration h3{
+    text-decoration: underline;
+}
+.textdecoration h3 a{
+    text-decoration: none;
+    color: #73d84b;
+}
+/* text transform */
+.texttransform {
+    text-align: center;
+}
+.texttransform h1{
+    text-transform: lowercase;
+    text-decoration: underline;
+    color: chartreuse;
+}
+.texttransform h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: chartreuse;
+}
+.texttransform h3{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: chartreuse;
+}
+
+.textdecoration{}
+/* Css text spacing  */
+.textspacing {
+    text-align: center;
+}
+.textspacing h1{
+   letter-spacing: 10px;
+   text-align: center;
+}
+.textspacing h2{
+   line-height: 200px;
+   width: 200px;
+   height: 200px;
+   margin: 0px auto;
+   border-radius: 50%;
+   background-color: #fff;
+}
+.textspacing h3{
+ text-align: center;
+ word-spacing: 30px;
+}
+/* css textshadow */
+.textshaow{}
+.textshaow h1{
+    text-shadow: 4px 7px 2px rgba(177, 99, 126, .4);
+    font-size: 50px;
+}

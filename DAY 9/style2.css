@@ -1,0 +1,72 @@
+*{
+    margin: 0 ;
+    padding: 0;
+
+}
+.fullwebsite{
+    color:#fff;
+    text-align: center;
+    width:1024px;
+    height: auto;
+    margin:0 Auto;
+    padding: 5px;
+   
+}
+
+header h1{
+    height: 100px ;
+    width:100% ;
+    background: rgb(219, 147, 40);
+    color: #fff;
+    margin: auto 0;
+    padding-bottom: 5px;
+}
+section{
+     width: 100%;
+}
+
+
+.banner{
+    background-color: #db5454;
+    width: 100%;
+    margin: 0px auto;
+    padding: 75px 75px;
+}
+.banner img{
+    
+  max-width: 100%;
+  box-shadow: 15px 15px 8px white;
+
+}
+
+
+
+.title{
+    background: #b8a7d2;
+    margin-bottom: 5px;
+    padding:10px 0;
+}
+.service1{
+    background: #bd30a6;
+    padding: 5px;
+    margin-top: 5px;
+    margin:  auto;
+   margin-top: 5px;
+}
+.design1{
+    color: green;
+}
+.design2{
+    color: yellow;
+}
+.design3{
+    color: azure;
+}
+.design{
+    background-color: rgb(222, 181, 58);
+    color: black;
+    }
+    .futar{
+        background: #b8a7d2;
+        color: black;
+    }
