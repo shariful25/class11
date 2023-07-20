@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header css */
+
+.menu{
+    background-color: #000000;
+  
+}
+.menu ul{
+    list-style: none;
+    
+    text-align: center;
+
+}
+.menu ul li{
+   display: inline-block;
+   margin-left: -4px;
+    
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ddd;
+    padding: 10px 20px;
+    transition: .4s;
+    font-weight: 700;
+}
+.menu ul li a:hover{
+    color: #fff;
+
+}
+.menu ul li:hover >a{
+  color: #fff;
+}
+/* Home hover */
+
+.menu ul li{
+    position: relative;
+}
+.menu ul li ul{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    background-color: #000000;
+    top: 62px;
+    left: 20px;
+    border-top: 5px solid rgb(21, 21, 248);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    /* transform: scaleY(0); */
+}
+.menu ul li ul li{
+    display: block;
+    margin-left: -32px;
+    transition: .4s;
+}
+.menu ul li ul li:last-child a{
+    border: none; 
+
+ 
+}
+.menu ul li ul li a{
+    display: block;
+    border-bottom: 1px solid #ddd;
+    margin-left: 0px;
+    transition: .4s;
+
+}
+.menu ul li ul li a:hover{
+    background-color: rgb(21, 21, 248);
+}
+
+/* dropdown menuj */
+.menu ul li:hover ul{
+   opacity: 1;
+   visibility: visible;
+   transform: scaleY(1);
+   transform-origin: top center;
+   transition: .4s;
+}
+/* dropdown to dropdown */
+.menu ul li ul li{
+    position: relative;
+    transition: .4s;
+}
+.menu ul li ul li ul{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    background-color: #000000;
+    top: -5px;
+    left: 250px;
+    border-top: 5px solid rgb(21, 21, 248);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+
+/* hover 2nd */
+.menu ul li:hover ul ul{
+    opacity: 0;
+    visibility: hidden;
+ }
+.menu ul li ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    /* transform: scaleY(1); */
+    /* transform-origin: top center; */
+}
+/* banner section */
+.banner{
+    background-image: url("https://i.ibb.co/WvKghvf/youngmen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    padding: 250px 0px;
+    height: auto;
+    width: 100%;
+}
+.banner h1{
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.banner h3{
+    /* display: inline-block; */
+    background-color: #fff;
+    padding: 3px 20px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 30px;
+}
+.banner a{
+    text-decoration:none;
+    color: #fff;
+    background-color: #ff0909;
+    padding: 7px 15px;
+    margin: 5px 0px;
+    display: inline-block;
+    font-weight: 500;
+    border:2px solid #ff0909;
+    transition: .4s;
+
+}
+.banner a:hover{
+    
+    color:#ff0909;
+    background-color: #fff;
+    border:2px solid #ff0909;
+    
+}
+/* service css */
+
+.list_outside{
+    
+    margin: 20px auto;
+    padding: 30px 0px;
+    border: 1px solid #000000;
+    
+}
+.list_outside h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+.list_outside ul{
+    list-style-position: outside;
+    padding-left: 0px;
+  
+}
+.list_outside ul li{
+    font-size: 15px;
+}
+
+
+/* inside list */
+.list_inside{
+    border: 1px solid #ffffff;
+    margin: 30px 0px;
+    /* padding: 0px 10px; */
+    box-shadow: 0px 0px 14px rgba(130, 112, 231, 0.5);
+    padding: 30px 0px;
+}
+.list_inside h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.list_inside ul{
+    list-style-position: inside;
+    
+}
+.list_inside ul li{
+    font-size: 15px;
+}
+/* email css */
+.email{
+    background-color: #F2F2F2;
+    
+}
+.email_field{
+    width: 600px;
+    /* display: inline-block; */
+    padding: 5px 10px;
+    outline: none;
+    
+    border: 2px solid red;
+    margin-top: 30px;
+    border-radius: 5px 0px 0px 5px;
+}
+.btn_email{
+        
+        background-color: red;
+        border: 2px solid red;
+        padding: 5px 20px;
+        outline: none;
+        margin-left: -7px;
+        color: #fff;
+        transition: .4s;
+    }
+.btn_email:hover{
+        background-color: #fff;
+        color: red;
+    }
+    /* list style css */
+.list_type{
+    border: 3px dotted #ddd;
+    padding: 20px;
+    margin-top: 30px;
+}
+.list_type h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.listItem{
+    
+    width: 100%;
+    margin: 30px 0px;
+}
+.item1{
+    width: 31%;
+    margin: 0px 9px;
+    display: inline-block;
+
+}
+.item1 ul{
+    list-style-type: lower-roman;
+}
+.item2 ul{
+    list-style-type: square;
+}
+.item3 ul{
+    list-style-type: lower-greek;
+}
+/* footer css */
+
+
+.footertop p{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer_social ul{
+    list-style: none;
+}
+.footer_social ul li{
+    display: inline-block;
+}
+.footer_social ul li a{
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #5EA5FA;
+    color: #000;
+    margin: 5px;
+    transition: .4s;
+}
+.footer_social ul li a:hover{
+    background-color: #fff;
+}
+
+
+/* <a href="https://ibb.co/CK0hcKQ"><img src="https://i.ibb.co/WvKghvf/youngmen.jpg" alt="youngmen" border="0"></a><br /><a target='_blank' href='https://nonprofitlight.com/ny/rochester/ymca-of-greater-rochester-4368'>ymca rochester ny</a><br /> */

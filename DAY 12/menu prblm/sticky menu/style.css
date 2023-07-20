@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    position: sticky;
+    top: -15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adjust the shadow as needed */
+    z-index: 999; /* Ensure it stays on top of other elements */
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ff0000; /* Change the color on hover as desired */
+}
