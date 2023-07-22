@@ -1,0 +1,285 @@
+a:hover{
+    
+}
+
+
+.div_b_a h1{
+    color: red;
+    text-align: center;
+}
+.div_b_a h1::before{
+    content: ' "before new"---';
+}
+.div_b_a h1::after{
+    content: '---"after new" ';
+}
+/* btn after before */
+.divbtn,.divbtn2,.divbtn3,.divbtn4{
+    text-align: center;
+}
+
+
+.click_class {
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    background-color: blue;
+    padding:6px 20px;
+    border-radius: 3px;
+    margin: 30px 0px;
+    position: relative;
+    z-index: 1;
+}
+.click_class::before{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 100%;
+        background-color: red;
+        top: 0;
+        left: 0;
+        border-radius: 3px;
+        z-index: -1;
+        transition: .4s;
+}
+.click_class:hover::before{
+    width: 100%;
+    
+}
+.click_class2 {
+    display: inline-block;
+    background-color: #cc10ad;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    
+}
+.click_class2::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: #7ff023;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    z-index: -1;
+    color: #cc10ad;
+    transition: .4s;
+}
+.click_class2:hover::before{
+    height: 100%;
+}
+/* before3 */
+.click_class3 {
+    display: inline-block;
+    background-color: #f71e30;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    margin: 30px 0px;
+    
+}
+.click_class3::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: #9ea812;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    z-index: -1;
+    color: #000000;
+    transition: .4s;
+}
+.click_class3:hover::before{
+    height: 100%;
+    color: #fff;
+}
+.click_class3:hover{
+    height: 100%;
+    color: #fff;
+}
+
+/* before4 */
+.click_class4 {
+    display: inline-block;
+    background-color: #1097cc;
+    color: rgb(0, 0, 0);
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    
+}
+.click_class4::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #bb0c63;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    z-index: -1;
+
+    transition: .4s;
+}
+.click_class4:hover::before{
+    width: 100%;
+}
+.click_class4:hover{
+    
+    color: #000000;
+}
+
+/* learning from practice */
+.praactice_learn{
+    margin: 20px auto;
+     width: 800px;
+     text-align: center;
+}
+.divbtn5{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #000000;
+    margin: 0px auto;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+
+}
+/* before after */
+.divbtn5::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 6px;
+    height: 100%;
+    background-color: #43d301;
+    z-index: 10;
+
+}
+.divbtn5::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 6px;
+    height: 100%;
+    background-color: #43d301;
+    z-index: 10;
+
+}
+.click_class5{
+    display: inline-block;
+    /* padding: 20px ; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #f71e30;
+    color: #000000;
+    z-index: 9;
+    transition: .4s;
+}
+
+.click_class5::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50%;
+    width: 50%;
+    height: 100%;
+    background-color: #000000;
+    transition: .4s;
+    z-index: -1;
+
+}
+.click_class5::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 50%;
+    height: 100%;
+    background-color: #000000;
+    transition: .4s;
+    z-index: -1;
+
+}
+.click_class5:hover::before{
+    left: 0;
+}
+.click_class5:hover::after{
+    right: 0;
+}
+
+
+.click_class5:hover{
+   
+    color: #FFF;
+}
+.click_class5 a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* icon with using before */
+.item{}
+.item ul{}
+.item ul li{}
+.item ul li::before{
+    content: "\f058";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 400;
+    /* display: ; */
+    margin-right: 10px;
+    color: red;
+    font-size: 13px;
+}
+.item ul li a{}
+
+
+.item2{}
+.item ul{}
+.item2 ul li{}
+.item2 ul li::before{
+    content: "\f560";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 700;
+    /* display: ; */
+    margin-right: 10px;
+    color: rgb(139, 25, 111);
+    font-size: 13px;
+}
+.item3 ul li a{}
+.item3{}
+.item3 ul{}
+.item3 ul li{}
+.item3 ul li::before{
+    content: "\f43f";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 700;
+    /* display: ; */
+    margin-right: 10px;
+    color: rgb(18, 55, 223);
+    font-size: 13px;
+}
+.item ul li a{}

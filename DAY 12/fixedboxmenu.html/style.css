@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* sidemenu */
+
+.header_smenu{
+    background: orange;
+    height: auto;
+}
+.sidemenu{
+    background-color: #a0a0a0;
+    height: auto;
+    position: relative;
+}
+.fixed_box{
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 275px;
+    border: 1px solid#000;
+}
+.sidemenu ul{
+    list-style: none;
+}
+.sidemenu ul li{
+    width: 76px;
+    text-align: center;
+}
+.sidemenu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 0px;
+    display: inline-block;
+    transition: .4s;
+  
+}
+.sidemenu ul li:hover>a{
+    color: #dad8d8;
+    
+}
+.sidemenu ul li a:hover{}
+
+/* span solve  */
+.sidemenu ul li span{
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.sidemenu ul li:hover span{
+    opacity: 1;
+    visibility: visible;
+}
+.sidemenu ul li:hover ul li span{
+    opacity: 0;
+    visibility: hidden;
+}
+/* 2nd span */
+.sidemenu ul li ul li:hover span{
+    opacity: 1;
+    visibility: visible;
+}
+.sidemenu ul li ul li:hover ul li span{
+    opacity: 0;
+    visibility: hidden;
+}
+/* 3rd span */
+.sidemenu ul li ul li ul li:hover span{
+    opacity: 1;
+    visibility: visible;
+}
+/* .sidemenu ul li ul li:hover ul li span{
+    opacity: 0;
+    visibility: hidden;
+} */
+
+
+
+
+
+
+
+/* 1st dropdown */
+.sidemenu ul li{
+    position: relative;
+}
+.sidemenu ul li ul{
+    position: absolute;
+    top: 0px;
+    left: 82px;
+    width: 160px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 0px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.sidemenu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.sidemenu ul li:hover ul ul{
+    opacity: 0;
+    visibility: hidden;
+}
+.sidemenu ul li ul li{}
+.sidemenu ul li ul li a{}
+.sidemenu ul li ul li span{}
+
+/* 2nd dropdown */
+.sidemenu ul li ul li{
+    position: relative;
+}
+.sidemenu ul li ul li ul{
+    pposition: absolute;
+    top: -1px;
+    left: 158px;
+    width: 160px;
+    height: auto;
+    background-color: #fff;
+    
+    padding: 0px;
+
+}
+.item2{
+    top: -50px;
+    left: 160px;
+}
+.sidemenu ul li ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+.sidemenu ul li ul li{}
+.sidemenu ul li ul li a{}
+.sidemenu ul li ul li span{
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* .sidemenu ul li:hover ul li span{
+    opacity: 0;
+    visibility: visible;
+} */
+

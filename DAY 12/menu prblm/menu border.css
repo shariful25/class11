@@ -42,11 +42,12 @@
 
 .menu3 ul li ul{
     position: absolute;
-    width: 200px;
+    width: 100px;
     height: auto;
     background-color: #000;
     top: 100%;
     left: 0;
+    padding-left: 0px;
 }
 .menu1 ul li ul li{
     display: block;
@@ -54,22 +55,12 @@
 }
 .menu1 ul li ul li a{
     display: block;
-    border: none;
+    border-right:none;
+   
+}
+.menu3 ul li ul li:first-child a{
+    border-left: none;
 }
 .menu1 ul li ul li a:hover{}
 /* menu 2 */
-.menu2{
-    
-}
-.menu2 ul{
-    
-}
-.menu2 ul li{}
-.menu2 ul li a{}
-.menu2 ul li a:hover{}
-/* menu1 dropdown */
-.menu2 ul li ul{}
-.menu2 ul li ul li{}
-.menu2 ul li ul li a{}
-.menu2 ul li ul li a:hover{}
-/* menu3 */
+
